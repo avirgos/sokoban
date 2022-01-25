@@ -1,0 +1,44 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text>&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;250&lt;/x&gt;&lt;y&gt;430&lt;/y&gt;&lt;w&gt;650&lt;/w&gt;&lt;h&gt;250&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;.
+«use»
+&lt;/panel_attributes&gt;&lt;additional_attributes&gt;630;10;10;230&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;250&lt;/x&gt;&lt;y&gt;390&lt;/y&gt;&lt;w&gt;580&lt;/w&gt;&lt;h&gt;290&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;.
+«use»
+&lt;/panel_attributes&gt;&lt;additional_attributes&gt;560;10;10;270&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;120&lt;/x&gt;&lt;y&gt;34&lt;/y&gt;&lt;w&gt;100&lt;/w&gt;&lt;h&gt;50&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt; «enumeration»
+*Items*&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;540&lt;/x&gt;&lt;y&gt;84&lt;/y&gt;&lt;w&gt;80&lt;/w&gt;&lt;h&gt;150&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=-
+m1=*
+r1=cells
+m2=1
+r2=myBoard&lt;/panel_attributes&gt;&lt;additional_attributes&gt;10;10;10;130&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;540&lt;/x&gt;&lt;y&gt;84&lt;/y&gt;&lt;w&gt;80&lt;/w&gt;&lt;h&gt;150&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=-
+m1=*
+r1=cells
+m2=1
+r2=myBoard&lt;/panel_attributes&gt;&lt;additional_attributes&gt;10;10;10;130&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;530&lt;/x&gt;&lt;y&gt;260&lt;/y&gt;&lt;w&gt;30&lt;/w&gt;&lt;h&gt;90&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;&amp;lt;-&lt;/panel_attributes&gt;&lt;additional_attributes&gt;10;10;10;70&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;490&lt;/x&gt;&lt;y&gt;330&lt;/y&gt;&lt;w&gt;100&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;Game&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;490&lt;/x&gt;&lt;y&gt;260&lt;/y&gt;&lt;w&gt;100&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;Board&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>90</x><y>0</y><w>100</w><h>50</h></coordinates><panel_attributes> «enumeration»
+*Items*</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>420</x><y>10</y><w>100</w><h>30</h></coordinates><panel_attributes>Cell</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>180</x><y>10</y><w>260</w><h>50</h></coordinates><panel_attributes>lt=-
+m1=1
+r1=myItem
+m2=*
+r2=withItem</panel_attributes><additional_attributes>10;20;240;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>420</x><y>160</y><w>100</w><h>30</h></coordinates><panel_attributes>Board</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>30</y><w>80</w><h>150</h></coordinates><panel_attributes>lt=-
+m1=*
+r1=cells
+m2=1
+r2=myBoard</panel_attributes><additional_attributes>10;10;10;130</additional_attributes></element><element><id>UMLClass</id><coordinates><x>420</x><y>250</y><w>100</w><h>30</h></coordinates><panel_attributes>Game</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>180</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>UMLClass</id><coordinates><x>420</x><y>340</y><w>100</w><h>30</h></coordinates><panel_attributes>Position</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>270</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>250</x><y>240</y><w>190</w><h>50</h></coordinates><panel_attributes>lt=-
+m1=1
+r1=launched
+m2=1
+r2=myPlayer</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>160</x><y>586</y><w>100</w><h>30</h></coordinates><panel_attributes>Administrator</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>266</y><w>100</w><h>190</h></coordinates><panel_attributes>lt=-
+m1=1
+r1=myPlayer
+m2=1
+r2=myBoardsDb</panel_attributes><additional_attributes>10;10;10;170</additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>456</y><w>120</w><h>150</h></coordinates><panel_attributes>lt=-
+m1=1
+r1=myBoardsDB
+m2=1
+r2=myAdministrator</panel_attributes><additional_attributes>10;10;10;130</additional_attributes></element><element><id>UMLClass</id><coordinates><x>160</x><y>436</y><w>100</w><h>30</h></coordinates><panel_attributes>BoardsDatabase</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>160</x><y>246</y><w>100</w><h>30</h></coordinates><panel_attributes>Player</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>730</x><y>156</y><w>100</w><h>50</h></coordinates><panel_attributes> «interface»
+*BoardBuilder*</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>156</y><w>240</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+«use»</panel_attributes><additional_attributes>10;20;220;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>620</x><y>346</y><w>100</w><h>30</h></coordinates><panel_attributes>TextBoardBuilder</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>820</x><y>346</y><w>100</w><h>30</h></coordinates><panel_attributes>FileBoardBuilder</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>660</x><y>196</y><w>130</w><h>170</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>110;10;10;150</additional_attributes></element><element><id>Relation</id><coordinates><x>780</x><y>196</y><w>110</w><h>170</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;90;150</additional_attributes></element><element><id>Relation</id><coordinates><x>250</x><y>366</y><w>710</w><h>250</h></coordinates><panel_attributes>lt=&lt;.
+«use»
+</panel_attributes><additional_attributes>660;10;660;230;10;230</additional_attributes></element><element><id>Relation</id><coordinates><x>250</x><y>366</y><w>620</w><h>100</h></coordinates><panel_attributes>lt=&lt;.
+«use»
+</panel_attributes><additional_attributes>570;10;570;80;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>250</x><y>366</y><w>460</w><h>90</h></coordinates><panel_attributes>lt=&lt;.
+«use»
+</panel_attributes><additional_attributes>410;10;410;70;10;70</additional_attributes></element><element><id>Text</id><coordinates><x>120</x><y>126</y><w>190</w><h>30</h></coordinates><panel_attributes>_Diagram in general specification_
+style=wordwrap</panel_attributes><additional_attributes></additional_attributes></element></diagram>
