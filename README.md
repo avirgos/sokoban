@@ -55,4 +55,4 @@ ______________________________________
 
 __Library :__
 
-- __SQLite JDBC__. [Download .jar](https://github.com/xerial/sqlite-jdbc/releases)
+- __SQLite JDBC__. (v3.34.0) [Download .jar](https://github.com/xerial/sqlite-jdbc/releases)
