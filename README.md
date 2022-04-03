@@ -53,6 +53,7 @@ At the __end__ of the __game__ :
 
 ______________________________________
 
-__Library :__
+__Libraries :__
 
 - __SQLite JDBC__. (v3.34.0) [Download .jar](https://github.com/xerial/sqlite-jdbc/releases)
+- __JUnit__. (v4.11)
