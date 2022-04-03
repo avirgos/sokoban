@@ -107,7 +107,7 @@ public class BoardsDatabase {
                 ResultSet rs = s.executeQuery("SELECT * FROM Boards");
 
                 OUT.println("| id_board\t | title_board\t\t | sizeX | sizeY |");
-                OUT.println("|----------------|-----------------------|-------|-------|");
+                OUT.println("|------------|-------------------|-------|-------|");
 
                 while (rs.next()) {
                     String id = rs.getString("id_board");
