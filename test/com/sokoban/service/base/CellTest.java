@@ -1,7 +1,5 @@
-package com.sokoban.data.base;
+package com.sokoban.service.base;
 
-import com.sokoban.service.base.Item;
-import com.sokoban.service.base.Cell;
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 

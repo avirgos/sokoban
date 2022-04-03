@@ -3,7 +3,7 @@ package com.sokoban.hmi;
 import com.sokoban.service.base.Game;
 import com.sokoban.service.base.BoardCellException;
 import com.sokoban.service.base.Board;
-import com.sokoban.data.boardsDbMaintenance.BoardsDatabase;
+import com.sokoban.boardsDatabaseManagement.BoardsDatabase;
 import java.io.PrintStream;
 import java.util.Scanner;
 

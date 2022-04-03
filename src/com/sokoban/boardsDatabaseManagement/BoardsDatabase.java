@@ -1,4 +1,4 @@
-package com.sokoban.data.boardsDbMaintenance;
+package com.sokoban.boardsDatabaseManagement;
 
 import com.sokoban.service.base.BoardCellException;
 import com.sokoban.service.base.Board;
@@ -18,8 +18,8 @@ import java.sql.SQLException;
  */
 public class BoardsDatabase {
     private static final String BOARDS_DB_DIRECTORY_PATH = "db/";
-    private static final String BOARDS_DB_FILE_PATH = "db/boardsDatabase.sqlite3";
-    private static final String BOARDS_DB_URL_PATH = "jdbc:sqlite:" + "db/boardsDatabase.sqlite3";
+    private static final String BOARDS_DB_FILE_PATH = "db/boards-db.sqlite3";
+    private static final String BOARDS_DB_URL_PATH = "jdbc:sqlite:" + "db/boards-db.sqlite3";
     private static final PrintStream OUT = System.out;
 
     /**
@@ -35,7 +35,7 @@ public class BoardsDatabase {
         }
 
         try {
-            // verify if the file "boardsDatabase.sqlite3" is created in "db" directory
+            // verify if the file "boards-db.sqlite3" is created in "db" directory
             if (!boardsDatabaseFile.exists()) {
                 createNewDatabase();
             }

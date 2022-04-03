@@ -1,9 +1,5 @@
-package com.sokoban.data.base;
+package com.sokoban.service.base;
 
-import com.sokoban.service.base.Board;
-import com.sokoban.service.base.Item;
-import com.sokoban.service.base.Cell;
-import com.sokoban.service.base.BoardCellException;
 import static com.sokoban.service.base.Board.getCell;
 import java.util.HashSet;
 import static org.junit.Assert.assertEquals;

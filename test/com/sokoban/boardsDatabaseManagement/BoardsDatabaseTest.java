@@ -1,4 +1,4 @@
-package com.sokoban.data.boardsDbMaintenance;
+package com.sokoban.boardsDatabaseManagement;
 
 import com.sokoban.service.base.BoardCellException;
 import static org.junit.Assert.assertEquals;

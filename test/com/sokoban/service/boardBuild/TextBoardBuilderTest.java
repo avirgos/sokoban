@@ -1,7 +1,5 @@
-package com.sokoban.data.boardBuild;
+package com.sokoban.service.boardBuild;
 
-import com.sokoban.service.boardBuild.TextBoardBuilder;
-import com.sokoban.service.boardBuild.BoardBuildException;
 import com.sokoban.service.base.Board;
 import com.sokoban.service.base.BoardCellException;
 import com.sokoban.service.base.Item;

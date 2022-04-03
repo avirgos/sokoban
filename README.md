@@ -23,13 +23,13 @@ ______________________________________
 
 # Example of a game
 
-![Example](/img/example.png)
+![example](/img/example.png)
 
 ______________________________________
 
 # Structure
 
-![Diagram](/img/sokoban-uml-general-specification.png)
+![sokoban-uml-general-specification](/img/sokoban-uml-general-specification.png)
 
 ______________________________________
 
@@ -48,10 +48,3 @@ the modification(s)
 At the end of the game :
 - the program displays a simple message if the player wins
 - the program returns to the main menu
-
-______________________________________
-
-# Packages
-
-![Main packages](/img/packages.png)
-![Unit tests packages](/img/packages-unit-tests.png)
