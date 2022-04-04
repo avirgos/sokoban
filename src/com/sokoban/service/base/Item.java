@@ -14,7 +14,7 @@ public enum Item {
     /**
      * Item constructor.
      * 
-     * @param value the item cell value
+     * @param value item cell value
      */
     private Item(String value) {
         this.value = value;
@@ -23,7 +23,7 @@ public enum Item {
     /**
      * Return the cell item value.
      * 
-     * @return a cell item value
+     * @return the cell item value
      */
     @Override
     public String toString() {

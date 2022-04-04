@@ -125,10 +125,10 @@ public class BoardsDatabase {
     /**
      * Add a board to a database using a file.
      *
-     * @param id the board ID
-     * @param fileBuilder the FileBoardBuilder from the file containing the
+     * @param id board ID
+     * @param fileBuilder FileBoardBuilder from the file containing the
      * board
-     * @param board the board
+     * @param board board
      * @throws BoardCellException the cell coordinates of the board are not
      * valid
      */
@@ -164,7 +164,7 @@ public class BoardsDatabase {
     /**
      * Remove a board from a database.
      *
-     * @param id the board ID
+     * @param id board ID
      */
     static void remove(String id) {
         try {
@@ -192,7 +192,7 @@ public class BoardsDatabase {
      * Get a specific board from a database.
      *
      * @param id board ID
-     * @return a board
+     * @return the board
      * @throws BoardCellException the cell coordinates of the board are not
      * valid
      */
@@ -240,8 +240,8 @@ public class BoardsDatabase {
     /**
      * Get a specific board id and verify it.
      *
-     * @param c a connection
-     * @param id a board id
+     * @param c connection
+     * @param id board id
      * @throws SQLException the database access error or other errors
      */
     private static void idVerification(Connection c, String id) throws SQLException {

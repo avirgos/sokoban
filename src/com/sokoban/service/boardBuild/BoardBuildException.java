@@ -8,7 +8,7 @@ public class BoardBuildException extends Exception {
     /**
      * BoardBuildException.
      * 
-     * @param message a message to explain why the user got this exception
+     * @param message message to explain why the user got this exception
      */
     public BoardBuildException(String message) {
         super(message);

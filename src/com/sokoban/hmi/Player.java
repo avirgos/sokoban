@@ -15,9 +15,9 @@ public class Player {
     private static final PrintStream OUT = System.out;
 
     /**
-     * Removes spaces from the string.
+     * Remove spaces from the string.
      *
-     * @return a line lacking in spaces, wrote by an user
+     * @return the line lacking in spaces, wrote by an user
      */
     private static String read() {
         return IN.nextLine().trim();
@@ -33,7 +33,7 @@ public class Player {
     public static void main(String[] args) throws BoardCellException {
         BoardsDatabase.loadDatabase();
         
-        OUT.println("| Welcome to Sokoban Project ! |" + "\n");
+        OUT.println("| Welcome to Sokoban Project ! |" + "\n");
         
         boolean loop = true;
         while (loop) {

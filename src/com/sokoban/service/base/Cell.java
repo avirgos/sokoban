@@ -12,8 +12,8 @@ public class Cell {
     /**
      * Cell constructor.
      * 
-     * @param row the position of the cell on the line
-     * @param column the position of the cell on the column
+     * @param row position of the cell on the line
+     * @param column position of the cell on the column
      */
     public Cell(int row, int column) {
         this.ROW = row;
@@ -25,7 +25,7 @@ public class Cell {
     /**
      * Get the position of the cell on the line.
      *
-     * @return a row value
+     * @return the row value
      */
     public int getRow() {
         return this.ROW;
@@ -34,7 +34,7 @@ public class Cell {
     /**
      * Get the position of the cell on the column.
      *
-     * @return a column value
+     * @return the column value
      */
     public int getColumn() {
         return this.COLUMN;
@@ -43,7 +43,7 @@ public class Cell {
     /**
      * Get the item which correspond with the cell.
      *
-     * @return a item
+     * @return the item
      */
     public Item getItem() {
         return this.i;
@@ -52,7 +52,7 @@ public class Cell {
     /**
      * Get the state of the cell.
      *
-     * @return a state
+     * @return the state
      */
     public boolean getBlockState() {
         return this.blockState;
@@ -62,7 +62,7 @@ public class Cell {
      * Set a item to a cell.
      * 
      * @param i item
-     * @return a item
+     * @return the item
      */   
     public Item setItem(Item i) {
         return this.i = i;
@@ -72,7 +72,7 @@ public class Cell {
      * Set a state to a cell.
      * 
      * @param b state
-     * @return a state
+     * @return the state
      */
     public boolean setBlockState(boolean b) {
         return this.blockState = b;

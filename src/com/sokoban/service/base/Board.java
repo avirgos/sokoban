@@ -17,9 +17,9 @@ public class Board {
     /**
      * Board constructor.
      *
-     * @param title the title of the board
-     * @param sizeX the length of the board abscissa
-     * @param sizeY the length of the board ordinate
+     * @param title title of the board
+     * @param sizeX length of the board abscissa
+     * @param sizeY length of the board ordinate
      */
     public Board(String title, int sizeX, int sizeY) {
         this.TITLE = title;
@@ -32,7 +32,7 @@ public class Board {
     /**
      * Get the title of the board.
      *
-     * @return a title of a board
+     * @return the title of a board
      */
     public String getTitle() {
         return this.TITLE;
@@ -41,7 +41,7 @@ public class Board {
     /**
      * Get the length of the board abscissa.
      *
-     * @return a length of a board abscissa
+     * @return the length of a board abscissa
      */
     public static int getSizeX() {
         return Board.sizeX;
@@ -50,7 +50,7 @@ public class Board {
     /**
      * Get the length of the board ordinate.
      *
-     * @return a length of a board ordinate
+     * @return the length of a board ordinate
      */
     public static int getSizeY() {
         return Board.sizeY;
@@ -68,7 +68,7 @@ public class Board {
     /**
      * Get the position of the player on the board.
      *
-     * @return a player cell
+     * @return the player cell
      */
     public Cell getPositionPlayer() {        
         for (Cell ce : getAll()) {
@@ -83,8 +83,8 @@ public class Board {
     /**
      * Get all crates from a cell along the line.
      *
-     * @param ce a cell which correspond to the origin
-     * @return an ArrayList collection that contains crates along the line
+     * @param ce cell which correspond to the origin
+     * @return the ArrayList collection that contains crates along the line
      */
     public static ArrayList<Cell> getAllCratesRow(Cell ce) {
         ArrayList<Cell> cellCrates = new ArrayList<>();
@@ -102,8 +102,8 @@ public class Board {
     /**
      * Get all crates from a cell along the column.
      *
-     * @param ce a cell which correspond to the origin
-     * @return an ArrayList collection that contains crates along the column
+     * @param ce cell which correspond to the origin
+     * @return the ArrayList collection that contains crates along the column
      */
     public static ArrayList<Cell> getAllCratesCol(Cell ce) {
         ArrayList<Cell> cellCrates = new ArrayList<>();
@@ -121,7 +121,7 @@ public class Board {
     /**
      * Get all targets.
      *
-     * @return a HashSet collection that contains targets
+     * @return the HashSet collection that contains targets
      */
     public static HashSet<Cell> getAllTargets() {
         HashSet<Cell> cellTargets = new HashSet<>();
@@ -138,9 +138,9 @@ public class Board {
     /**
      * Get an accurate cell of the board using abscissa and ordinate values.
      *
-     * @param row a position of the cell on the line
-     * @param column a position of the cell on the column
-     * @return a cell
+     * @param row position of the cell on the line
+     * @param column position of the cell on the column
+     * @return the cell
      * @throws BoardCellException the cell coordinates of the board are
      * not valid
      */
@@ -182,7 +182,7 @@ public class Board {
     /**
      * Add a cell to the cells of the board.
      *
-     * @param ce a Cell
+     * @param ce cell
      */
     private void addCell(Cell ce) {
         getAll().add(ce);
@@ -238,7 +238,7 @@ public class Board {
     /**
      * Display the content of the board.
      *
-     * @param i a cell abcissa value
+     * @param i cell abcissa value
      * @throws BoardCellException the cell coordinates of the board are
      * not valid
      */

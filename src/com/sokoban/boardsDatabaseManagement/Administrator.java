@@ -17,9 +17,9 @@ public class Administrator {
     private static final File LEVELS_DIRECTORY = new File("levels/");
 
     /**
-     * Removes spaces from the string.
+     * Remove spaces from the string.
      *
-     * @return a line lacking in spaces, wrote by an user
+     * @return the line lacking in spaces, wrote by an user
      */
     private static String read() {
         return IN.nextLine().trim();
@@ -36,7 +36,7 @@ public class Administrator {
      */
     public static void main(String[] args) throws SQLException, BoardCellException, BoardBuildException {
         BoardsDatabase.loadDatabase();
-        OUT.println("| Administration Interface |" + "\n");
+        OUT.println("| Administration Interface |" + "\n");
         boolean loop = true;
         while (loop) {
             OUT.println("1. Create new database");
@@ -154,7 +154,7 @@ public class Administrator {
     /**
      * List files in a directory.
      * 
-     * @param directory a directory 
+     * @param directory directory 
      */
     private static void listBoardsInDirectory(File directory) {
         for (File fileEntry : directory.listFiles()) {

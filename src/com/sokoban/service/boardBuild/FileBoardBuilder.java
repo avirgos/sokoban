@@ -23,7 +23,7 @@ public class FileBoardBuilder implements BoardBuilder {
     /**
      * FileBoardBuilder constructor.
      *
-     * @param f the board file
+     * @param f board file
      */
     public FileBoardBuilder(File f) {
         this.BOARD_FILE = f;
@@ -34,7 +34,7 @@ public class FileBoardBuilder implements BoardBuilder {
     /**
      * Get the title of the board.
      *
-     * @return a title of a board
+     * @return the title of a board
      */
     @Override
     public String getTitle() {
@@ -44,7 +44,7 @@ public class FileBoardBuilder implements BoardBuilder {
     /**
      * Get the length of the board abscissa.
      *
-     * @return a length of a board abscissa
+     * @return the length of a board abscissa
      */
     @Override
     public int getSizeX() {
@@ -54,7 +54,7 @@ public class FileBoardBuilder implements BoardBuilder {
     /**
      * Get the length of the board ordinate.
      *
-     * @return a length of a board ordinate
+     * @return the length of a board ordinate
      */
     @Override
     public int getSizeY() {
@@ -64,7 +64,7 @@ public class FileBoardBuilder implements BoardBuilder {
     /**
      * Get the board file.
      *
-     * @return a board file
+     * @return the board file
      */
     public File getFile() {
         return this.BOARD_FILE;
@@ -82,7 +82,7 @@ public class FileBoardBuilder implements BoardBuilder {
     /**
      * Get the board.
      *
-     * @return a board
+     * @return the board
      */
     public Board getBoard() {
         return this.b;
@@ -193,7 +193,7 @@ public class FileBoardBuilder implements BoardBuilder {
     /**
      * Build an instance of a board.
      *
-     * @return a board
+     * @return the board
      */
     @Override
     public final Board build() {

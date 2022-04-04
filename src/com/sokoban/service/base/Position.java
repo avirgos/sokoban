@@ -10,9 +10,9 @@ public class Position extends Game {
     /**
      * Position constructor.
      * 
-     * @param title the title of the board
-     * @param sizeX the length of the board abscissa
-     * @param sizeY the length of the board ordinate
+     * @param title title of the board
+     * @param sizeX length of the board abscissa
+     * @param sizeY length of the board ordinate
      */
     public Position(String title, int sizeX, int sizeY) {
         super(title, sizeX, sizeY);
@@ -21,8 +21,8 @@ public class Position extends Game {
     /**
      * Move the player to a void cell.
      * 
-     * @param p a player cell
-     * @param adj a adjacent cell to the player cell
+     * @param p player cell
+     * @param adj adjacent cell to the player cell
      */
     static void movePlayerCell(Cell p, Cell adj) {
         if (adj.getItem().equals(Item.VOID)) {
@@ -34,9 +34,9 @@ public class Position extends Game {
     /**
      * Move a crate or multiple crates to a void cell or a target.
      * 
-     * @param p a player cell
-     * @param adj a adjacent cell to the player cell
-     * @param direction a direction to move
+     * @param p player cell
+     * @param adj adjacent cell to the player cell
+     * @param direction direction to move
      * @throws BoardCellException the cell coordinates of the board are
      * not valid
      */
@@ -155,8 +155,8 @@ public class Position extends Game {
     /**
      * Block a crate to the player if it has reach a target.
      * 
-     * @param ceCrate a Crate cell
-     * @param cratesBeforeUpdateTargets a HashSet collection of the crates
+     * @param ceCrate crate cell
+     * @param cratesBeforeUpdateTargets HashSet collection of the crates
      * from the board before an update of the targets (deletion of 
      * target)
      * @return true if the crate has reach a target, false if it isn't

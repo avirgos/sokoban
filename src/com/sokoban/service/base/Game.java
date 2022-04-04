@@ -15,9 +15,9 @@ public class Game extends Board {
     /**
      * Game constructor.
      *
-     * @param title the title of the board
-     * @param sizeX the length of the board abscissa
-     * @param sizeY the length of the board ordinate
+     * @param title title of the board
+     * @param sizeX length of the board abscissa
+     * @param sizeY length of the board ordinate
      */
     public Game(String title, int sizeX, int sizeY) {
         super(title, sizeX, sizeY);
@@ -34,9 +34,9 @@ public class Game extends Board {
     }
 
     /**
-     * Removes spaces from the string.
+     * Remove spaces from the string.
      *
-     * @return a line lacking in spaces, wrote by an user
+     * @return the line lacking in spaces, wrote by an user
      */
     private static String read() {
         return IN.nextLine().trim();
@@ -45,7 +45,7 @@ public class Game extends Board {
     /**
      * Interaction menu of Sokoban.
      *
-     * @param b a board
+     * @param b board
      * @throws BoardCellException the cell coordinates of the board are
      * not valid
      */
@@ -86,7 +86,7 @@ public class Game extends Board {
      * Player interaction for the move(s).
      *
      * @param movesSelected move(s) wrote by an user
-     * @param b a board
+     * @param b board
      * @param loop true if the game is still in progress, false if it isn't
      * @throws BoardCellException the cell coordinates of the board are
      * not valid
@@ -126,8 +126,8 @@ public class Game extends Board {
             if (!unknownCharPresence) {
                 b.drawBoard();
             }
-            
-            // only one move
+
+        // only one move
         } else {
             switch (movesSelected) {
                 case "Z":
@@ -165,7 +165,7 @@ public class Game extends Board {
     /**
      * Move the player (and the crates) to the up direction.
      *
-     * @param p a player cell
+     * @param p player cell
      */
     private static void moveUp(Cell p) {
         try {
@@ -186,7 +186,7 @@ public class Game extends Board {
     /**
      * Move the player (and the crates) to the left direction.
      *
-     * @param p a player cell
+     * @param p player cell
      */
     private static void moveLeft(Cell p) {
         try {
@@ -207,7 +207,7 @@ public class Game extends Board {
     /**
      * Move the player (and the crates) to the down direction.
      *
-     * @param p a player cell
+     * @param p player cell
      */
     private static void moveDown(Cell p) {
         try {
@@ -228,7 +228,7 @@ public class Game extends Board {
     /**
      * Move the player (and the crates) to the right direction.
      *
-     * @param p a player cell
+     * @param p player cell
      */
     private static void moveRight(Cell p) {
         try {

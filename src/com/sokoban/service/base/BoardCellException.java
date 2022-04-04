@@ -8,7 +8,7 @@ public class BoardCellException extends Exception {
     /**
      * InvalidBoardCellException.
      * 
-     * @param message a message to explain why the user got this exception
+     * @param message message to explain why the user got this exception
      */
     public BoardCellException(String message) {
         super(message);
