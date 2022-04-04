@@ -93,8 +93,8 @@ public class BoardTest {
     /**
      * Display a crate on the board.
      *
-     * @param row a position of the cell on the line
-     * @param column a position of the cell on the column
+     * @param row position of the cell on the line
+     * @param column position of the cell on the column
      * @throws BoardCellException the cell coordinates of the board are
      * not valid
      */
@@ -105,8 +105,8 @@ public class BoardTest {
     /**
      * Display a target on the board.
      *
-     * @param row a position of the cell on the line
-     * @param column a position of the cell on the column
+     * @param row position of the cell on the line
+     * @param column position of the cell on the column
      * @throws BoardCellException the cell coordinates of the board are
      * not valid
      */
@@ -117,8 +117,8 @@ public class BoardTest {
     /**
      * Display a player on the board.
      *
-     * @param row a position of the cell on the line
-     * @param column a position of the cell on the column
+     * @param row position of the cell on the line
+     * @param column position of the cell on the column
      * @throws BoardCellException the cell coordinates of the board are
      * not valid
      */

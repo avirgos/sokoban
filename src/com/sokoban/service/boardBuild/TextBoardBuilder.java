@@ -19,9 +19,9 @@ public class TextBoardBuilder implements BoardBuilder {
     /**
      * TextBoardBuilder constructor.
      *
-     * @param title the title of the board
-     * @param sizeX the length of the board abscissa
-     * @param sizeY the length of the board ordinate
+     * @param title title of the board
+     * @param sizeX length of the board abscissa
+     * @param sizeY length of the board ordinate
      */
     public TextBoardBuilder(String title, int sizeX, int sizeY) {
         this.TITLE = title;
@@ -33,7 +33,7 @@ public class TextBoardBuilder implements BoardBuilder {
     /**
      * Get the title of the board.
      *
-     * @return a title of a board
+     * @return the title of a board
      */
     @Override
     public String getTitle() {
@@ -43,7 +43,7 @@ public class TextBoardBuilder implements BoardBuilder {
     /**
      * Get the length of the board abscissa.
      *
-     * @return a length of a board abscissa
+     * @return the length of a board abscissa
      */
     @Override
     public int getSizeX() {
@@ -53,7 +53,7 @@ public class TextBoardBuilder implements BoardBuilder {
     /**
      * Get the length of the board ordinate.
      *
-     * @return a length of a board ordinate
+     * @return the length of a board ordinate
      */
     @Override
     public int getSizeY() {
@@ -63,7 +63,7 @@ public class TextBoardBuilder implements BoardBuilder {
     /**
      * Get the board.
      *
-     * @return a board
+     * @return the board
      */
     public Board getBoard() {
         return this.b;
@@ -72,8 +72,8 @@ public class TextBoardBuilder implements BoardBuilder {
     /**
      * Add a row to the board.
      *
-     * @param elements the row composed by elements into a string
-     * @param row the number of the row
+     * @param elements row composed by elements into a string
+     * @param row number of the row
      * @throws BoardCellException the cell coordinates of the board are not
      * valid
      */
@@ -141,7 +141,7 @@ public class TextBoardBuilder implements BoardBuilder {
     /**
      * Build an instance of a board.
      *
-     * @return a board
+     * @return the board
      */
     @Override
     public final Board build() {
